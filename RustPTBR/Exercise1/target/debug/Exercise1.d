@@ -1,0 +1,1 @@
+/Users/matheuschagasdasilva/Projects/RustPTBR/Exercise1/target/debug/Exercise1: /Users/matheuschagasdasilva/Projects/RustPTBR/Exercise1/src/lib.rs /Users/matheuschagasdasilva/Projects/RustPTBR/Exercise1/src/main.rs

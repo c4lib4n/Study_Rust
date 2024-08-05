@@ -1,0 +1,1 @@
+/Users/matheuschagasdasilva/Projects/Rust/ExerciseInputData/target/debug/ExerciseInputData: /Users/matheuschagasdasilva/Projects/Rust/ExerciseInputData/src/convert.rs /Users/matheuschagasdasilva/Projects/Rust/ExerciseInputData/src/lib.rs /Users/matheuschagasdasilva/Projects/Rust/ExerciseInputData/src/main.rs
