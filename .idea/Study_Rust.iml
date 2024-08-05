@@ -7,6 +7,7 @@
       <sourceFolder url="file://$MODULE_DIR$/ExerciseC/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ExerciseD/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ExerciseE/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseF/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ExerciseInputData/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Exercise1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Exercise2/src" isTestSource="false" />
@@ -15,6 +16,7 @@
       <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseD/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseE/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseF/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseInputData/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Exercise1/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Exercise2/target" />
