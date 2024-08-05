@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="EMPTY_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseA/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseB/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseC/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseD/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseE/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseInputData/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Exercise1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Exercise2/src" isTestSource="false" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseA/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseB/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseD/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseE/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseInputData/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Exercise1/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Exercise2/target" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

@@ -3,6 +3,8 @@ use std::io;
 use Exercise1::{convert_to_int};
 
 fn main() {
+
+
     let mut medias = String::new();
     println!("Digite a quantidade de notas:");
     io::stdin().read_line(&mut medias).expect("Error ao ler medias");

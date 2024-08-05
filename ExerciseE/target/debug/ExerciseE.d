@@ -1,0 +1,1 @@
+/Users/matheuschagasdasilva/Study/Study_Rust/ExerciseE/target/debug/ExerciseE: /Users/matheuschagasdasilva/Study/Study_Rust/ExerciseE/src/lib.rs /Users/matheuschagasdasilva/Study/Study_Rust/ExerciseE/src/main.rs

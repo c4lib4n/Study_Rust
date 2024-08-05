@@ -1,1 +1,1 @@
-/Users/matheuschagasdasilva/Projects/RustPTBR/Exercise2/target/debug/Exercise2: /Users/matheuschagasdasilva/Projects/RustPTBR/Exercise2/src/lib.rs /Users/matheuschagasdasilva/Projects/RustPTBR/Exercise2/src/main.rs
+/Users/matheuschagasdasilva/Study/Study_Rust/RustPTBR/Exercise2/target/debug/Exercise2: /Users/matheuschagasdasilva/Study/Study_Rust/RustPTBR/Exercise2/src/lib.rs /Users/matheuschagasdasilva/Study/Study_Rust/RustPTBR/Exercise2/src/main.rs
