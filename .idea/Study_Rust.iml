@@ -11,6 +11,11 @@
       <sourceFolder url="file://$MODULE_DIR$/ExerciseInputData/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Exercise1/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Exercise2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Deletmed/delet/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Eh_Primo/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/For_in_Rust/FOR/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Maior_Numero/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/RustPTBR/deletme/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseA/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseB/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
@@ -20,6 +25,11 @@
       <excludeFolder url="file://$MODULE_DIR$/ExerciseInputData/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Exercise1/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Exercise2/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Deletmed/delet/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Eh_Primo/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/For_in_Rust/FOR/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Maior_Numero/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/RustPTBR/deletme/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

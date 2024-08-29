@@ -1,1 +1,1 @@
-/Users/matheuschagasdasilva/Study/Study_Rust/RustPTBR/Exercise1/target/debug/Exercise1: /Users/matheuschagasdasilva/Study/Study_Rust/RustPTBR/Exercise1/src/lib.rs /Users/matheuschagasdasilva/Study/Study_Rust/RustPTBR/Exercise1/src/main.rs
+C:\Users\chagasda\Documents\Study\Study_Rust\RustPTBR\Exercise1\target\debug\Exercise1.exe: C:\Users\chagasda\Documents\Study\Study_Rust\RustPTBR\Exercise1\src\lib.rs C:\Users\chagasda\Documents\Study\Study_Rust\RustPTBR\Exercise1\src\main.rs
