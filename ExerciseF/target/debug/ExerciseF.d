@@ -1,0 +1,1 @@
+C:\Users\chagasda\Documents\Study\Study_Rust\ExerciseF\target\debug\ExerciseF.exe: C:\Users\chagasda\Documents\Study\Study_Rust\ExerciseF\src\lib.rs C:\Users\chagasda\Documents\Study\Study_Rust\ExerciseF\src\main.rs
