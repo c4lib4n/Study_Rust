@@ -19,6 +19,8 @@
       <sourceFolder url="file://$MODULE_DIR$/RustPTBR/deletme/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/RustPTBR/Soma_Numeros_Pares/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ExerciseG/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ExerciseH/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/invaders/main/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseA/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseB/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
@@ -36,6 +38,8 @@
       <excludeFolder url="file://$MODULE_DIR$/RustPTBR/deletme/target" />
       <excludeFolder url="file://$MODULE_DIR$/RustPTBR/Soma_Numeros_Pares/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseG/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/ExerciseH/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/invaders/main/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
