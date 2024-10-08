@@ -1,0 +1,1 @@
+/Users/chagasda/Documents/Study/Study_Rust/Rust_Course_2/01_Exercise/square_difference/target/debug/square_difference: /Users/chagasda/Documents/Study/Study_Rust/Rust_Course_2/01_Exercise/square_difference/src/main.rs
