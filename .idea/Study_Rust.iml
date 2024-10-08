@@ -21,6 +21,13 @@
       <sourceFolder url="file://$MODULE_DIR$/ExerciseG/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/ExerciseH/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/invaders/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/01_Exercise/square_difference/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/02_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/03_Exercise/problem03/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/04_Exercise/problem04/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/05_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/06_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/test_delet_me/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseA/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseB/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
@@ -40,6 +47,13 @@
       <excludeFolder url="file://$MODULE_DIR$/ExerciseG/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseH/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/invaders/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/01_Exercise/square_difference/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/02_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/03_Exercise/problem03/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/04_Exercise/problem04/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/05_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/06_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/test_delet_me/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
