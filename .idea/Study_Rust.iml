@@ -28,6 +28,16 @@
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/05_Exercise/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/06_Exercise/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/test_delet_me/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/07_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/08_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/09_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/10_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/11_Exercise/Main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/12_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/13_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/14_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/15_Exercise/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/16_Exercise/main/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseA/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseB/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
@@ -54,6 +64,16 @@
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/05_Exercise/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/06_Exercise/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/test_delet_me/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/07_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/08_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/09_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/10_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/11_Exercise/Main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/12_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/13_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/14_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/15_Exercise/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/16_Exercise/main/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
