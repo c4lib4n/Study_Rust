@@ -1,16 +1,25 @@
 mod balances;
 mod system;
 
+pub struct Runtime{
+    balances: balances::Pallet,
+    system: system::Pallet,
+}
+
+impl Runtime{
+    pub fn new() -> Self{
+        Runtime{
+            balances: balances::Pallet::new(),
+            system: system::Pallet::new(),
+        }
+
+    }
+}
 use std::collections::BTreeMap;
-use crate::balances::Pallet;
+
 
 fn main() {
-    let mut pallet = Pallet::new();
-    pallet.set_balance(&"Matheus".to_string(), 20);
 
-    let balance = pallet.balance(&"Matheus".to_string());
-   //println!("Balance: {}", balance);
-
-
+    println!("Hello, world!");
 
 }
