@@ -1,17 +1,16 @@
-use std::collections::BTreeMap;
 use num::traits::{CheckedAdd, CheckedSub, Zero};
+use std::collections::BTreeMap;
 
-pub trait Config: crate::system::Config{
+pub trait Config: crate::system::Config {
     type Balance: CheckedAdd + CheckedSub + Zero + Copy;
 }
 
 #[derive(Debug)]
-pub struct Pallet<T:Config> {
+pub struct Pallet<T: Config> {
     balances: BTreeMap<T::AccountId, T::Balance>,
 }
 
-impl <T:Config> Pallet <T>
-{
+impl<T: Config> Pallet<T> {
     pub fn new() -> Self {
         Self {
             balances: BTreeMap::new(),
@@ -35,7 +34,9 @@ impl <T:Config> Pallet <T>
         let caller_balance = self.balance(&caller);
         let to_balance = self.balance(&to);
 
-        let new_caller_balance = caller_balance.checked_sub(&amount).ok_or("Not enough balance")?;
+        let new_caller_balance = caller_balance
+            .checked_sub(&amount)
+            .ok_or("Not enough balance")?;
         let new_to_balance = to_balance.checked_add(&amount).ok_or("Overflow")?;
 
         self.balances.insert(caller, new_caller_balance);
@@ -45,13 +46,35 @@ impl <T:Config> Pallet <T>
     }
 }
 
+pub enum Call<T: Config> {
+    Transfer {
+        to: T::AccountId,
+        amount: T::Balance,
+    },
+}
+
+impl<T: Config> crate::support::Dispatch for Pallet<T> {
+    type Caller = T::AccountId;
+    type Call = Call<T>;
+
+    fn dispatch(
+        &mut self,
+        caller: Self::Caller,
+        call: Self::Call,
+    ) -> crate::support::DispatchResult {
+        match call {
+            Call::Transfer { to, amount } => self.transfer(caller, to, amount),
+        }
+    }
+}
+
 #[cfg(test)]
 mod tests {
     use super::*;
 
     struct TestConfig;
 
-    impl super::Config for TestConfig { 
+    impl super::Config for TestConfig {
         type Balance = u128;
     }
 
@@ -59,7 +82,6 @@ mod tests {
         type AccountId = String;
         type BlockNumber = u32;
         type Nonce = u32;
-        
     }
 
     #[test]
@@ -71,19 +93,27 @@ mod tests {
         assert_eq!(balances.balance(&"Bob".to_string()), 0);
     }
 
-
     #[test]
     fn transfer_balance() {
         let mut balances = Pallet::<TestConfig>::new();
 
-        assert_eq!(balances.transfer("Alice".to_string(), "Bob".to_string(), 10), Err("Not enough balance"));
+        assert_eq!(
+            balances.transfer("Alice".to_string(), "Bob".to_string(), 10),
+            Err("Not enough balance")
+        );
         balances.set_balance(&"Alice".to_string(), 10);
-        assert_eq!(balances.transfer("Alice".to_string(), "Bob".to_string(), 5), Ok(()));
+        assert_eq!(
+            balances.transfer("Alice".to_string(), "Bob".to_string(), 5),
+            Ok(())
+        );
 
         assert_eq!(balances.balance(&"Alice".to_string()), 5);
         assert_eq!(balances.balance(&"Bob".to_string()), 5);
 
         balances.set_balance(&"Bob".to_string(), u128::MAX);
-        assert_eq!(balances.transfer("Alice".to_string(), "Bob".to_string(), 5), Err("Overflow"));
+        assert_eq!(
+            balances.transfer("Alice".to_string(), "Bob".to_string(), 5),
+            Err("Overflow")
+        );
     }
 }
