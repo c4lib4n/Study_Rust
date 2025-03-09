@@ -96,10 +96,10 @@ use crate::types::{AccountId, Balance};
 use std::collections::BTreeMap;
 
 fn main() {
+    let mut runtime = Runtime::new();
     let alice = "alice".to_string();
     let bob = "bob".to_string();
     let charlie = "charlie".to_string();
-    let mut runtime = Runtime::new();
 
     runtime.balances.set_balance(&alice, 100);
 
@@ -108,14 +108,34 @@ fn main() {
         extrinsics: vec![
             support::Extrinsic{
                 caller: alice.clone(),
-                call: RuntimeCall::Balances(balances::Call::Transfer  {to: bob, amount: 30}),
+                call: RuntimeCall::Balances(balances::Call::Transfer  {to: bob.clone(), amount: 30}),
             },
             support::Extrinsic{
-                caller: alice,
-                call: RuntimeCall::Balances (balances::Call::Transfer {to: charlie, amount: 20}),
+                caller: alice.clone(),
+                call: RuntimeCall::Balances (balances::Call::Transfer {to: charlie.clone(), amount: 20}),
             },
         ],
     };
     runtime.execute_block(block_1).expect("Wrong block execution");
+
+    let block_2 = types::Block{
+        header: support::Header {block_number: 2},
+        extrinsics: vec![
+            support::Extrinsic{
+                caller: alice,
+                call: RuntimeCall::ProofOfExistence(proof_of_existence::Call::CreateClaim  {claim: "my_first_claim"}),
+            },
+            support::Extrinsic{
+                caller: bob.clone(),
+                call: RuntimeCall::ProofOfExistence (proof_of_existence::Call::CreateClaim {claim: "Bobs claim"}),
+            },
+            support::Extrinsic{
+                caller: bob.clone(),
+                call: RuntimeCall::ProofOfExistence (proof_of_existence::Call::RevokeClaim {claim: "my_first_claim"}),
+            },
+        ],
+    };
+    runtime.execute_block(block_2).expect("Wrong block execution");
+
     println!("{:#?}", runtime);
 }
