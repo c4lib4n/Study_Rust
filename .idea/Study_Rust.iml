@@ -40,6 +40,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/16_Exercise/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Rust_Course_2/17_Exercise/main/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/web3dev/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coursera/teste/main/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coursera/Duke_University/Rust_Fundamentals/File_Reader/file_reader/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coursera/Duke_University/Rust_Fundamentals/Structs/structs/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Coursera/Duke_University/Rust_Fundamentals/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseA/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseB/target" />
       <excludeFolder url="file://$MODULE_DIR$/ExerciseC/target" />
@@ -78,6 +83,11 @@
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/16_Exercise/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/Rust_Course_2/17_Exercise/main/target" />
       <excludeFolder url="file://$MODULE_DIR$/web3dev/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Coursera/teste/main/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Coursera/Duke_University/Rust_Fundamentals/File_Reader/file_reader/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Coursera/Duke_University/Rust_Fundamentals/Structs/structs/target" />
+      <excludeFolder url="file://$MODULE_DIR$/Coursera/Duke_University/Rust_Fundamentals/target" />
+      <excludeFolder url="file://$MODULE_DIR$/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
